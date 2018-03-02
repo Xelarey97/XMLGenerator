@@ -5,10 +5,10 @@ Crear hoja de configuracion XML para entities al realizar el cambio. Facilita la
 ### Table of contents
 1. [Validaciones y TODO](#validacionestodo)
 2. [Funcionamiento](#funcionamiento)
-    1. [Vistas](#vistas)
-    2. [Impresion](#impresion)
-    3. [Exception Buttons](#exceptionbuttons)
-    4. [Columnas](#columnas)
+3. [Vistas](#vistas)
+4. [Impresion](#impresion)
+5. [Exception Buttons](#exceptionbuttons)
+6. [Columnas](#columnas)
 
 ![alt text](https://github.com/Xelarey97/XMLGenerator/blob/master/img/program.png?raw=true)
 
