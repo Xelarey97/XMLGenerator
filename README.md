@@ -1,4 +1,4 @@
-##XMLGenerator
+## XMLGenerator
 ---
 Crear hoja de configuracion XML para entities al realizar el cambio. Facilita la conversion de los maestros a entities.
 
@@ -14,19 +14,19 @@ Crear hoja de configuracion XML para entities al realizar el cambio. Facilita la
 
 <div id="validacionestodo"/>
 
-###Validaciones 
+### Validaciones 
 
 
 1. No se puede dejar ningún campo en blanco excepto los botones de búsqueda que son opcionales.
 2. Al dejarte cualquiera de los campos obligatorios sin rellenar saltará una excepción indicando cual es el campo que falta.
 
-###TODO
+### TODO
 1. Falta por poder seleccionar la carpeta donde se desa guardar el archivo, de momento para poder ser usado se tendrá que cambiar el directorio que viene hardcoded antes de compilar.
 2. Añadir un check para indicar si el filtro es obligatorio u opcional.
 
 <div  id="funcionamiento"/>
 
-###Funcionamiento (Campos)
+### Funcionamiento (Campos)
 
 **Entidad** : Aquí irá el nombre de la entidad que hemos debido crear anteriormente.
 ```
@@ -34,7 +34,7 @@ Ejemplo: DGEST.Presentation.Entities.Inmueblesv2.GestionChequeEfectivo
 ```
 <div id="vistas"/>
 
-####Vista
+#### Vista
 
 **Caption**: Indicaremos el nombre del archivo de traducción de los campos que se muestren en el grid.
 ```
@@ -60,7 +60,7 @@ Ejemplo: EditaNotario
 
 <div id="impresion"/>
 
-####Impresión
+#### Impresión
 
 **Caption**: Indica la traducción del título del report del maestro en cuestión.
 ```
@@ -79,9 +79,9 @@ Ejemplo: AR
 
 <div id="exceptionbuttons"/>
 
-####Exception Buttons
+#### Exception Buttons
 
-#####BeforeBusqueda y AfterBusqueda
+##### BeforeBusqueda y AfterBusqueda
 
 > Dependiendo de si queremos que se un botón este habilitado antes o despues de la busqueda tendremos que indicar la acción y el valor.
 Para deshabilitar el botón antes de realizar la búsqueda, añadiremos la acción en BeforeBusqueda y si queremos que sea después lo añadiremos en AfterBusqueda. Se puede añadir la misma acción en ambos lados.
@@ -95,7 +95,7 @@ Ejemplo: AccionNuevo
 
 <div id="columnas"/>
 
-####Columnas
+#### Columnas
 
 >Según las columnas que muestre el grid de la búsqueda tendremos que añadir más o menos.
 
